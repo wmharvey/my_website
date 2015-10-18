@@ -1,0 +1,145 @@
+.nav {
+	position: absolute;
+	width: 100%;
+	height: 70px;
+	background-color: rgba(74,83,87,.7);
+	margin: -21px -9px 1px -8px;
+}
+
+.nav li {
+	color: white;
+	font-size: 20px;
+	font-family: Copperplate;
+	display: inline;
+	float: right;
+	margin: 10px auto;
+	margin-right: 6px;
+	padding: 8px 7px 2px 7px;
+	position: relative;
+	bottom: 4px;
+}
+
+a.main_links:link {color: white}
+a.main_links:visited {color: white}
+a.main_links:hover {color: black} 
+
+.heading {
+	width: 100%;
+	height: 300px;
+	clear: right;
+	position: relative;
+	top: 50px;
+	margin-bottom: 150px;
+}
+
+.bar {
+	width: 100%;
+	height: 10px;
+	position: relative;
+	background-color: black;
+	margin-left: -8px;
+	margin-right: -9px;
+}
+
+.title {
+	display: inline-block;
+	width: 30%;
+	height: 280px;
+	position: relative;
+	left: 60px;
+}
+
+.title > p {
+	font-family: American Typewriter;
+	font-size: 5em;
+	position: relative;
+	top: -30px;
+	text-align: center;
+}
+
+.logo {
+	display: inline-block;
+	width: 30%;
+	height: 280px;
+	position: relative;
+	float: left;
+	background: url('images/logo.jpg');
+	background-size: cover;
+	margin-left: -8px;
+}
+
+.intro {
+	display: inline-block;
+	width: 30%;
+	height: 280px;
+	font-family: Papyrus; 
+	background-color: rgba(180,132,132,.1);
+	position: relative;
+	float: right;
+	margin-right: -8px;
+}
+
+.link {
+	width: 100%;
+	height: 300px;
+	opacity: 1;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+	.link:hover {
+	  opacity: 0.7;
+  }
+
+.interests h2 {
+	font-family: Georgia, Verdana, 'Arial Black', Helvetica;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 130px;
+	-webkit-text-stroke: 1.5px black;
+	font-size: 40px;
+/*	text-shadow:
+	  3px 3px 0 #000,
+	  -1px -1px 0 #000,
+	  1px -1px 0 #000,
+	  -1px 1px 0 #000,
+	  1px 1px 0 #000;*/
+}
+
+#travel {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background: url(images/travel_cover.jpg);
+	background-size: cover;
+	background-position: center left;
+}
+
+#chemistry {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background: url(images/chemistry_cover.jpg);
+	background-size: cover;
+	background-position: center left;
+}
+
+#fitness {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background: url(images/fitness_cover.jpg);
+	background-size: cover;
+	background-position: center left;
+}
+
+#food {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background: url(images/food_cover.jpg);
+	background-size: cover;
+	background-position: center left;
+}
+
