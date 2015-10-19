@@ -143,3 +143,12 @@ a.main_links:hover {color: white}
 	background-position: center left;
 }
 
+.interests h4 {
+	position: relative;
+	font-size: 35px;
+	margin: 0;
+	line-height: 8.5;
+	color: white;
+	font-family: American Typewriter;
+	-webkit-text-stroke: 1.5px black;
+}
