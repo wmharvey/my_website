@@ -9,24 +9,24 @@ body {
 }
 
 .nav {
-	position: absolute;
 	width: 100%;
 	height: 70px;
 	background-color: rgba(74,83,87,.7);
-	margin: -21px -9px 1px -8px;
 }
 
-.nav li {
-	color: white;
-	font-size: 20px;
+.container {
+	position: absolute;
+	right: 0;
+	height: 70px;
+}
+
+.container li {
 	font-family: Copperplate;
+	font-size: 20px;
+	color: white;
 	display: inline;
-	float: right;
-	margin: 10px auto;
-	margin-right: 6px;
-	padding: 8px 7px 2px 7px;
-	position: relative;
-	bottom: 4px;
+	margin-right: 15px;
+	line-height: 2;
 }
 
 a.main_links:link {color: white}
