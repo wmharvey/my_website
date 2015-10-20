@@ -121,10 +121,11 @@ a.main_links:hover {color: white}
 .content {
 	position: relative;
 	width: 75%;
-	height: 1500px;
+	height: 1000px;
 	margin-left: 12%;
 	margin-right: 12%;
 	margin-top: 100px;
+	margin-bottom: 100px;
 	background-color: rgba(50,50,50,.1);
 	border-radius: 5px;
 /*	box-shadow: 0px 0px 3px 15px rgba(50,50,50,.2);*/
@@ -140,7 +141,7 @@ a.main_links:hover {color: white}
 }
 
 .bio {
-	height: 500px;
+	height: 400px;
 	top: 35px;
 }
 
@@ -157,9 +158,33 @@ a.main_links:hover {color: white}
 }
 
 .social {
-	height: 300px;
+	height: 200px;
+}
+
+.social > h1 {
+	font-family: Baskerville;
+	font-size: 1.5em;
+	padding: 7px;
+}
+
+.social > p {
+	font-family: Baskerville;
+	font-size: 1.2em;
+	padding: 7px;
 }
 
 .resume {
-	height: 300px;
+	height: 200px;
+}
+
+.resume > h1 {
+	font-family: Baskerville;
+	font-size: 1.5em;
+	padding: 7px;
+}
+
+.resume > p {
+	font-family: Baskerville;
+	font-size: 1.2em;
+	padding: 7px;
 }
