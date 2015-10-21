@@ -144,3 +144,12 @@ a.main_links:hover {color: white}
   margin-top: 10px;
 /*  border: 1px solid black;*/
 }
+
+footer > small {
+  display: block;
+  max-width: 100px;
+  margin: 0 auto;
+  font-family: Baskerville;
+  font-size: 18px;
+  text-align: center;
+}
