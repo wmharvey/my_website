@@ -1,79 +1,63 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
-<head>
+  <head>
 
-  <!-- declare character set -->
-  <meta charset="utf-8">
+    <!-- declare character set -->
+    <meta charset="utf-8">
 
-  <!-- take out link decoration -->
-  <style type="text/css">
-  a {text-decoration: none; }
-  </style>
+    <title>Travel</title>
 
-  <!-- link to main style sheet -->
-  <link rel="stylesheet" href="assets/stylesheets/travel.css">
+    <!-- link to main style sheet -->
+    <link rel="stylesheet" href="assets/stylesheets/travel.css">
 
-  <title>Travel</title>
+  </head>
 
-</head>
+  <body id="top">
 
-<body id="top">
+    <nav class="primary-nav">
+      <a href="index.html">Home</a>
+      <a href="quick_links.html">Quick Links</a>
+      <a href="mailto:main@whitneymharvey.com">Email</a>
+      <a href="index.html">About</a>
+    </nav>
 
-  <!-- create navigation bar -->
-  <div class="nav">
-    <div class="container">
-      <ul>
-        <li><a href="index.html" class="main_links">Home</a></li>
-        <li><a href="quick_links" class="main_links">Quick Links</a></li>
-        <li><a href="mailto:main@whitneymharvey.com" class="main_links">Email</a></li>
-        <li><a href="about_me.html" class="main_links">About me</a></li>
-      </ul>
-    </div>
-  </div>
+    <header class="group container">
+      <div class="logo"></div>
+      <h1 class="heading title">My Travels</h1>
+      <p class="heading intro">I wanted to create a simple little travel blog to share my adventures</p>
+    </header>
 
-  <div class="header">
-    <div class="pic">
-    </div>
-  </div>
+    <section class="grid">
 
-  <div class="content">
-    <div class="entry">
-      <h1 class="title">Title</h1>
-      <p class="date">Date</p>
-      <span class="blog">
-        <p>Start blog entry here</p>
-      </span>
-    </div>
-    <div class="entry">
-      <h1 class="title">Title</h1>
-      <p class="date">Date</p>
-      <span class="blog">
-        <p>Start blog entry here</p>
-      </span>
-    </div>
-    <div class="entry">
-      <h1 class="title">Title</h1>
-      <p class="date">Date</p>
-      <span class="blog">
-        <p>Start blog entry here</p>
-      </span>
-    </div>
-    <div class="entry">
-      <h1 class="title">Title</h1>
-      <p class="date">Date</p>
-      <span class="blog">
-        <p>Start blog entry here</p>
-      </span>
-    </div>
-    <footer>
-      <small><a href="#top">Back to top</a></small>
+      <article class="col-1-4">
+        <h4>About</h4>
+        <h4>Other</h4>
+        <h4>Archive<h4>
+      </article>
+
+      <section class="col-3-4">
+        <a href="entry1">
+          <h2>On my way to Europe</h2>
+          <h3>June 15th, 2015</h3>
+        </a>
+        <p>I'm on my way!</p>
+      </section>
+
+      <section class="col-3-4">
+        <a href="entry2">
+          <h2>Made it to Scotland</h2>
+          <h3>June 16th, 2015</h3>
+        </a>
+        <p>Wow, what a journey.</p>
+      </section>
+    </section>
+
+    <footer class="container">
+      <a href="#top">Back to top</a>
     </footer>
-  </div>
 
-
-
-</body>
+  </body>
 
 </html>
