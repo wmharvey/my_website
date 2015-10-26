@@ -232,10 +232,6 @@ h4 {
   letter-spacing: .1em;
 }
 
-.spacing > p {
-  margin-bottom: 0;
-}
-
 .spacing {
   margin-bottom: 22px;
 }
