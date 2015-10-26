@@ -62,11 +62,11 @@ body {
 }
 
 h1, h2, h3, h4 {
-  color: #648880;
+  color: #595959;
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 48px;
   line-height: 44px;
 }
 
@@ -76,7 +76,7 @@ h2 {
 }
 
 h3 {
-  font-size: 21px;
+  font-size: 18px;
 }
 
 h4 {
@@ -89,6 +89,10 @@ strong {
 
 cite, em {
   font-style: italic;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*Links*/
@@ -106,29 +110,26 @@ a {
 .grid {
   margin: 0 auto;
   width: 1100px;
-  /*border: 1px solid black;*/
 }
 
-.container {
-  padding-left: 30px;
-  padding-right: 30px;
+.grid {
+  margin-top: 100px;
 }
 
 .col-1-4 {
   width: 25%;
   float: right;
-  /*border: 1px solid black;*/
 }
 
 .col-3-4 {
   width: 75%;
-  /*border: 1px solid black;*/
 }
 
 .col-1-4,
 .col-3-4 {
   display: inline-block;
   vertical-align: top;
+  margin-top: 30px;
 }
 
 .grid,
@@ -139,15 +140,21 @@ a {
 }
 
 /*Typography*/
-h1, h2, h3, h4, p {
+h1, h3, h4, p {
   margin-bottom: 22px;
 }
 
 /*Nav bar*/
 .primary-nav {
-  float: right;
-  padding-right: 15px;
-  padding-top: 15px;
+  text-align: right;
+  padding: 30px 0 30px 30px;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  word-spacing: .25em;
+}
+
+a.link:hover {
+  border-bottom: 1px solid #a9b2b9;
 }
 
 /*Header*/
@@ -165,7 +172,8 @@ h1, h2, h3, h4, p {
 }
 
 header {
-  clear: both;
+  text-align: center;
+  background-color: #F5F4F0;
 }
 
 .logo {
@@ -177,8 +185,67 @@ header {
   background-position: top left;
 }
 
-.heading {
-  display: inline-block;
-  width: 50%;
+.title {
+  margin-top: 60px;
+  font-family: 'Rock Salt';
 }
 
+/*Entries*/
+h2 {
+  text-align: center;
+  border-bottom: 1px solid #595959;
+}
+
+h3 {
+  text-align: right;
+  padding-top: 5px;
+}
+
+.image-horizontal {
+  width: 760px;
+  height: 500px;
+  margin: 20px auto;
+}
+
+#image1 {
+  background: url('images/6.15.15-1.jpg');
+  background-size: cover;
+}
+
+#image2 {
+  background: url('images/6.16.15-1.jpg');
+  background-size: cover;
+}
+
+#image3 {
+  background: url('images/6.16.15-2.jpg');
+  background-size: cover;
+}
+
+/*Side pannel*/
+article {
+  border-left: 1px solid #595959;
+}
+
+h4 {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.spacing > p {
+  margin-bottom: 0;
+}
+
+.spacing {
+  margin-bottom: 22px;
+}
+
+.spacing > a {
+  display: block;
+}
+
+/*Footer*/
+footer {
+  text-align: center;
+  padding-bottom: 30px;
+}
