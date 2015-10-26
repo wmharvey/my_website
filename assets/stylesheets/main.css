@@ -46,170 +46,183 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-a {
-	text-decoration: none;
-}
 
 *,
 *:before,
-*:after, {
+*:after {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
-.nav {
-	width: 100%;
-	height: 65px;
-	background-color: rgba(74,83,87,.7);
+/*Custom styles*/
+body {
+  color: #888;
+  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.container {
-	position: absolute;
-	right: 0;
-	height: 65px;
+h1, h2, h3, h4 {
+  color: #595959;
 }
 
-.container ul {
-	line-height: 4;
+h1 {
+  font-size: 48px;
+  line-height: 44px;
 }
 
-.container li {
-	font-family: Copperplate;
-	font-size: 20px;
-	color: white;
-	display: inline;
-	margin-right: 15px;
-	line-height: 2;
+h2 {
+  font-size: 24px;
+  line-height: 44px;
 }
 
-a.main_links:link {color: white}
-a.main_links:visited {color: white}
-a.main_links:hover {color: white}
-
-.header {
-	position: relative;
-	height: 300px;
-	box-shadow: 0px 13px 0px 0px rgba(74,83,87,0.7);
+h3 {
+  font-size: 18px;
 }
 
-.header .logo {
-	position: absolute;
-	left: 0;
-	height: 300px;
-	width: 33%;
-	background: url(images/logo.jpg);
-	background-size: cover;
+h4 {
+  font-size: 18px;
 }
 
-.header .name {
-	position: absolute;
-	left: 33%;
-	height: 300px;
-	width: 34%;
-	font-family: American Typewriter;
-	color: rgb(55,55,55);
-	font-size: 5em;
-	text-align: center;
-	line-height: 0.875;
-	background-color: rgba(180,132,132,.1);
+strong {
+  font-weight: 400;
 }
 
-.name p {
-	position: relative;
-	margin-top: 1.05em;
+cite, em {
+  font-style: italic;
 }
 
-.header .quote {
-	position: absolute;
-	right: 0;
-	height: 300px;
-	width: 33%;
-	font-family: Papyrus;
-	background-color: rgba(180,132,132,.1);
-	text-align: center;
+a {
+  text-decoration: none;
 }
 
-.textbox {
-	position: relative;
-	padding-top: 10%;
-	padding-bottom: 10%;
-	line-height: 2;
+/*Links*/
+a:hover {
+  color: #a9b2b9;
 }
 
-.interests {
-	position: relative;
-	height: 1350px;
-	width: 100%;
+a {
+  color: #648880;
+}
+
+/*Grid*/
+.container,
+.grid {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.grid {
+  margin-top: 100px;
+}
+
+.col-1-4 {
+  width: 25%;
+  float: right;
+}
+
+.col-3-4 {
+  width: 75%;
+}
+
+.col-1-4,
+.col-3-4 {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 30px;
+}
+
+.grid,
+.col-1-4,
+.col-3-4 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*Nav bar*/
+.primary-nav {
+  text-align: right;
+  padding: 30px 0 30px 30px;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  word-spacing: .25em;
+}
+
+a.link:hover {
+  border-bottom: 1px solid #a9b2b9;
+}
+
+/*Header*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+header {
+  text-align: center;
+  background-color: #F5F4F0;
+}
+
+.logo {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background: url(images/logo.jpg);
+  background-size: cover;
+  background-position: top left;
+}
+
+.title {
+  margin-top: 60px;
+  font-family: 'Rock Salt';
+}
+
+/*main section*/
+.grid {
 	margin-top: 100px;
+	text-align: center;
 }
 
-.interests .box {
-	position: relative;
+.grid > a {
+	display: block;
 	height: 300px;
-	width: 100%;
 	margin-bottom: 35px;
-	text-align: center;
 	transition: opacity 0.25s ease-in-out;
 	-moz-transition: opacity 0.25s ease-in-out;
 	-webkit-transition: opacity 0.25s ease-in-out;
 }
 
-.box:hover {
+a.interest:hover {
 	opacity: 0.7;
 }
 
 #travel {
-	position: relative;
-	width: 100%;
-	height: 300px;
 	background: url(images/travel_cover.jpg);
 	background-size: cover;
 	background-position: center left;
 }
 
-#chemistry {
-	position: relative;
-	width: 100%;
-	height: 300px;
+#science {
 	background: url(images/chemistry_cover.jpg);
 	background-size: cover;
 	background-position: center left;
 }
 
 #fitness {
-	position: relative;
-	width: 100%;
-	height: 300px;
 	background: url(images/fitness_cover.jpg);
 	background-size: cover;
 	background-position: center left;
 }
 
 #food {
-	position: relative;
-	width: 100%;
-	height: 300px;
 	background: url(images/food_cover.jpg);
 	background-size: cover;
 	background-position: center left;
-}
-
-.interests h1 {
-	position: relative;
-	font-size: 35px;
-	margin: 0;
-	line-height: 8.5;
-	color: white;
-	font-family: American Typewriter;
-	-webkit-text-stroke: 1.5px black;
-}
-
-.link_spanner {
-	position:absolute;
-	width:100%;
-	height:300px;
-	top:0;
-	left: 0;
-	z-index: 1;
 }

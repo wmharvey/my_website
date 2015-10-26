@@ -7,11 +7,6 @@
   <!-- declare character set -->
   <meta charset="utf-8">
 
-  <!-- take out link decoration -->
-  <style type="text/css">
-  a {text-decoration: none; }
-  </style>
-
   <!-- link to main style sheet -->
   <link rel="stylesheet" href="assets/stylesheets/main.css">
 
@@ -22,65 +17,27 @@
 <body>
 
   <!-- create navigation bar -->
-  <div class="nav">
-    <div class="container">
-      <ul>
-	      <li><a href="index.html" class="main_links">Home</a></li>
-	      <li><a href="quick_links.html" class="main_links">Quick Links</a></li>
-	      <li><a href="mailto:main@whitneymharvey.com" class="main_links">Email</a></li>
-	      <li><a href="about_me.html" class="main_links">About me</a></li>
-      </ul>
-    </div>
-  </div>
+  <nav class="primary-nav container">
+    <a class="link" href="index.html">Home</a>
+    <a class="link" href="">Links</a>
+    <a class="link" href="mailto:main@whitneymharvey.com">Email</a>
+    <a class="link" href="about_me.html">About</a>
+  </nav>
 
   <!-- create heading box -->
-  <div class="header">
-    <div class="logo">
-    </div>
-    <div class="name">
-      <p>Whitney Harvey</p>
-    </div>
-    <div class="quote">
-      <div class="textbox">
-        <p>"On two occasions I have been asked, 'Pray, Mr. Babbage, if you put into the machine wrong figures, will the right answers come out?' ... I am not able rightly to apprehend the kind of confusion of ideas that could provoke such a question."
-        </p>
-        <p class="author">-Charles Babbage,
-        </p>
-        <p class="author"><i>Passages from the life of a Philosopher(1864)</i>
-        </p>
-      </div>
-    </div>
-  </div>
+  <header class="group container">
+    <div class="logo"></div>
+    <h1 class="heading title">Whitney Harvey</h1>
+    <p class="heading tagline">-Aspiring programmer</p>
+  </header>
 
-  <!-- create interests boxes -->
-  <div class="interests">
-
-    <div class="box">
-      <div id="travel">
-        <h1>TRAVEL</h1>
-        <a href="travel.html"><span class="link_spanner"></span></a>
-      </div>
-    </div>
-    <div class="box">
-      <div id="chemistry">
-        <h1>CHEMISTRY</h1>
-        <a href="chemistry.html"><span class="link_spanner"></span></a>
-      </div>
-    </div>
-    <div class="box">
-      <div id="fitness">
-        <h1>FITNESS</h1>
-        <a href="fitness.html"><span class="link_spanner"></span></a>
-      </div>
-    </div>
-    <div class="box">
-      <div id="food">
-        <h1>FOOD</h1>
-        <a href="food.html"><span class="link_spanner"></span></a>
-      </div>
-    </div>
-
-  </div>
+  <!-- Main section -->
+  <section class="grid">
+    <a href="travel.html" class="interest" id="travel">Travel</a>
+    <a href="science.html" class="interest" id="science">Science</a>
+    <a href="fitness.html" class="interest" id="fitness">Fitness</a>
+    <a href="food.html" class="interest" id="food">Food</a>
+  </section>
 
 </body>
 
